@@ -1,0 +1,23 @@
+.hero-mascot {
+  width: clamp(136px, 11.5vw, 164px);
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+  margin: 0 auto 16px;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (max-width: 760px) {
+  .hero-mascot {
+    width: 120px;
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-mascot {
+    width: 104px;
+    margin-bottom: 12px;
+  }
+}
