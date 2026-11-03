@@ -1,6 +1,5 @@
 # AceAction-5M
 
-**A Hierarchically Annotated 3D Gameplay Dataset for Game Agents**
 
 [Project website](https://zhangdaxia22.github.io/AceAction-5M/)
 
