@@ -9,5 +9,4 @@ Ruoxuan Zhang<sup>1,3*</sup>, Kailing Li<sup>2,3*</sup>, Zheyuan Zhou<sup>3</sup
 
 <sup>*</sup> Equal contribution. Contact: [Rosanzhang@tencent.com](mailto:Rosanzhang@tencent.com)
 
-This repository hosts the academic project website for AceAction-5M, with a rotating gallery of 29 gameplay images.
 
