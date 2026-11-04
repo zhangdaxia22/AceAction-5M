@@ -88,3 +88,23 @@
   .affiliations{font-size:11px}
   .paper-contact{flex-direction:column}
 }
+
+/* Paper title and static overview. */
+.hero{min-height:780px}
+.hero-copy{width:1120px}
+.hero h1{max-width:1100px;margin:0 auto 28px;font-size:clamp(32px,3vw,44px);font-weight:500;line-height:1.22;letter-spacing:-1.4px;white-space:normal}
+.hero h1>.title-line{display:block;color:var(--text)}
+.hero h1 .title-accent{color:var(--accent)}
+.hero-buttons{flex-wrap:wrap}
+.orbit-card{cursor:inherit}
+.dataset{padding-bottom:76px}
+@media(max-width:760px){
+  .hero{min-height:880px;max-height:none}
+  .hero h1{font-size:26px;line-height:1.26;letter-spacing:-.6px;margin-bottom:24px}
+  .hero-copy{padding:0 24px}
+  .dataset{padding-bottom:56px}
+}
+@media(max-width:400px){
+  .hero h1{font-size:24px}
+  .hero-copy{padding:0 18px}
+}
